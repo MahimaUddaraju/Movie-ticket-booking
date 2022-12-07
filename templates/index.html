@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(11, 11, 11);">
+    
+<div class="container">
+    <div class="row">
+      <img src="{% static 'img/movie.png' %}" alt="" class="img-fluid mx-auto d-block float-center r-50" style="width: 100%; height:300px;">
+    </div>
+    <!--<div class="card text-center" style="margin-top: 100px;">
+        <div class="card-header">
+          Hello!
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Welcome to the app</h5>
+          <p class="card-text">Make life easier by creating ToDo List</p>
+          <a href="{% url 'todoapp:todo' %}" class="btn btn-primary">Start Now!</a>
+        </div>
+        <div class="card-footer text-muted">
+          2 days ago
+        </div>
+      </div>--></div>
+      <div class="row">
+        <div class="col col-3"></div>
+        <div class="col col-7">
+    <div class="container" style = "left:50%; top:70%;">
+        <br><br><br>
+      
+        <p style="color:rgb(161, 206, 234); font-size:50px; font-family: 'Georgia', sans-serif;"> 
+            WELCOME TO MOVIEOLOGY!
+        </p>
+    </div>
+</div><!--
+<div class="row">
+  <div class="col col-3"></div>
+  <div class="col col-9">
+<div class="container" style = "left:50%; top:70%;">
+  <br>  
+
+  <p style="color:rgb(175, 135, 4); font-size:20px; font-family: 'Georgia', sans-serif;"> 
+    WELCOME! This application allows to create lists of tasks which can be individually managed.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    It Also lets you set the urgency of the task.
+</p>
+</div>
+</div>-->
+<div class="row">
+  <div class="col col-4"></div>
+  <div class="col col-7">
+<div class="container" style = "left:50%; top:70%;">
+  <br><br>
+<p style="color:rgb(142, 238, 204); font-size:25px; font-family: 'Trebuchet MS', sans-serif;"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book your Tickets Now!
+</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="{% url 'todoapp:todo' %}" class="btn btn-light">Book Now!</a>
+</div>
+</div>
+
+    
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+</body>
+</html>
